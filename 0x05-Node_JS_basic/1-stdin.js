@@ -4,7 +4,7 @@
 const readline = require('readline');
 
 const iface = readline.createInterface({
-  input: process.stdin
+  input: process.stdin,
 });
 
 console.log('Welcome to Holberton School, what is your name?');
