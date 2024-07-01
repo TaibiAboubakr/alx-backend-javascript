@@ -20,15 +20,15 @@ describe('calculateNumber', function() {
     assert.strictEqual(calculateNumber(0.1, -0.1), 0);
   });
 
-  it('should return -3 when inputs are -1.4 and -1.5 (first number rounded down, second number rounded down)', function() {
-    assert.strictEqual(calculateNumber(-1.4, -1.5), -3);
+  it('should return -2 when inputs are -1.4 and -1.5 (first number rounded down, second number rounded down)', function() {
+    assert.strictEqual(calculateNumber(-1.4, -1.5), -2);
   });
 
   it('should return -3 when inputs are -1.6 and -1.5 (first number rounded up, second number rounded down)', function() {
     assert.strictEqual(calculateNumber(-1.6, -1.5), -3);
   });
   
-  it('should return -3 when inputs are -1.5 and -1.5 (both numbers rounded down)', function() {
-    assert.strictEqual(calculateNumber(-1.5, -1.5), -3);
+  it('should return -2 when inputs are -1.5 and -1.5 (both numbers rounded down)', function() {
+    assert.strictEqual(calculateNumber(-1.5, -1.5), -2);
   });
 });
