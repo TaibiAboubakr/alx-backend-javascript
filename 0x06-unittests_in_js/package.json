@@ -1,0 +1,14 @@
+{
+    "name": "unittests_in_js",
+    "version": "1.0.0",
+    "description": "unittests_in_js",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "author": "YAboubakr",
+    "devDependencies": {
+      "mocha": "^9.0.0"
+    }
+  }
+  
